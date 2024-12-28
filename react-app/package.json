@@ -1,0 +1,31 @@
+{
+  "name": "react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "http://localhost:5001/",
+  "scripts": {
+    "dev": "vite",
+    "build": "react-scripts build",
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "react-webcam": "^7.2.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
